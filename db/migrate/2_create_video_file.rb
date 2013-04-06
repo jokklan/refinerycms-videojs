@@ -1,4 +1,4 @@
-class CreateVideoFile < ActiveRecord::Migration
+reclass CreateVideoFile < ActiveRecord::Migration
 
   def up
     create_table "refinery_video_files", :force => true do |t|
@@ -18,7 +18,7 @@ class CreateVideoFile < ActiveRecord::Migration
 
   def down
 
-    drop_table :refinery_videos
+    drop_table :refinery_videos_files
 
   end
 
